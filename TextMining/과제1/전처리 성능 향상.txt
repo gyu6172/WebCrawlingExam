@@ -1,0 +1,14 @@
+괄호 안에 있는 edit은 무조건 날려야 하잖아?
+
+그리고 references 다음에 나오는 
+retrieved
+original
+archieved
+날린다.
+- references가 없는 문서가 있는가? 없는 듯함. 있다고 해도 null로 저장?
+
+그런데 그냥 날리기엔 좀 애매한 듯 하다.
+차라리 df에 references 열을 만들어서 거기에 저장하자.
+그렇다면 references도 토큰화를 할 것 인가?
+
+
