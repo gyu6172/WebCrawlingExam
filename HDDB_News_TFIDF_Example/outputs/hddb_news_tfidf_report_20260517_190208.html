@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HDDB News TF-IDF Report</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "Malgun Gothic", sans-serif;
+      color: #17202a;
+      background: #f6f8fb;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+    .summary {
+      margin: 0 0 24px;
+      color: #52616f;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #dfe7ef;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .card-header {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #123c69;
+      color: #ffffff;
+      font-weight: 700;
+      flex: 0 0 auto;
+    }
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.35;
+    }
+    .meta {
+      margin: 6px 0 0;
+      color: #64748b;
+      font-size: 14px;
+    }
+    .category {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 14px 0;
+    }
+    .category span {
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #eaf3f7;
+      color: #154360;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .preview {
+      line-height: 1.65;
+      margin: 0 0 14px;
+    }
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .keyword {
+      padding: 6px 9px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: #f8fafc;
+      font-size: 13px;
+    }
+    a {
+      color: #0f5f8f;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>HDDB News TF-IDF Report</h1>
+    <p class="summary">
+      TF-IDF matrix: 3 documents x 100 terms ·
+      generated at 20260517_190208
+    </p>
+    <section class="grid">
+      
+            <article class="card">
+              <div class="card-header">
+                <span class="number">1</span>
+                <div>
+                  <h2>NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station</h2>
+                  <p class="meta">
+                    NASA News Releases · Fri, 15 May 2026 22:52:14 +0000
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 1.00</span>
+              </div>
+              <p class="preview">The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX spacecraft, loaded with nearly 6,500 pounds […]</p>
+              <div class="keywords"><span class="keyword">station <b>0.3740</b></span>
+<span class="keyword">spacex <b>0.3740</b></span>
+<span class="keyword">space <b>0.3740</b></span>
+<span class="keyword">resupply <b>0.2493</b></span>
+<span class="keyword">nasa <b>0.2493</b></span></div>
+              <a href="https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">2</span>
+                <div>
+                  <h2>Scientists discover hidden “brakes” that stop massive earthquakes</h2>
+                  <p class="meta">
+                    ScienceDaily Oceanography · Sat, 16 May 2026 02:12:11 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>화산/지진</span>
+                <span>confidence 0.76</span>
+              </div>
+              <p class="preview">A mysterious underwater fault near Ecuador has been producing nearly identical magnitude 6 earthquakes every five to six years, baffling scientists for decades. Researchers now believe the fault contains hidden “brake zones” where seawater and unusual rock structures work together to stop quakes from becoming even larger. The discovery came from ultra-detailed seafloor recordings that captured how the fault behaves before and after major earthquakes.</p>
+              <div class="keywords"><span class="keyword">fault <b>0.3908</b></span>
+<span class="keyword">earthquakes <b>0.3908</b></span>
+<span class="keyword">stop <b>0.2605</b></span>
+<span class="keyword">hidden <b>0.2605</b></span>
+<span class="keyword">researchers <b>0.1303</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515233325.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">3</span>
+                <div>
+                  <h2>Scientists warn that the world’s rivers are running out of oxygen</h2>
+                  <p class="meta">
+                    ScienceDaily Earth &amp; Climate · Sat, 16 May 2026 23:35:49 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>기상</span>
+                <span>confidence 0.50</span>
+              </div>
+              <p class="preview">Rivers around the world are quietly running out of oxygen — and climate change is emerging as the main culprit. A sweeping global analysis of more than 21,000 river systems found that nearly 80% have been steadily losing dissolved oxygen over the past four decades, threatening fish, biodiversity, and the overall health of freshwater ecosystems. Surprisingly, tropical rivers are being hit the hardest, even more than rivers in rapidly warming polar regions.</p>
+              <div class="keywords"><span class="keyword">rivers <b>0.5125</b></span>
+<span class="keyword">oxygen <b>0.3843</b></span>
+<span class="keyword">running <b>0.2562</b></span>
+<span class="keyword">warn <b>0.1281</b></span>
+<span class="keyword">regions <b>0.1281</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515233327.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+    </section>
+  </main>
+</body>
+</html>

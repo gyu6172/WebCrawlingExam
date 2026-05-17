@@ -1,6 +1,0 @@
-vocab_size=15
-skip_grams_base=42
-skip_grams_tuned=70
-final_loss_base=1.1407
-final_loss_tuned=1.5564
-first_5_skipgrams=[[7, 6], [6, 7], [6, 1], [1, 6], [1, 12]]

@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HDDB News TF-IDF Report</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "Malgun Gothic", sans-serif;
+      color: #17202a;
+      background: #f6f8fb;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+    .summary {
+      margin: 0 0 24px;
+      color: #52616f;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #dfe7ef;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .card-header {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #123c69;
+      color: #ffffff;
+      font-weight: 700;
+      flex: 0 0 auto;
+    }
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.35;
+    }
+    .meta {
+      margin: 6px 0 0;
+      color: #64748b;
+      font-size: 14px;
+    }
+    .category {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 14px 0;
+    }
+    .category span {
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #eaf3f7;
+      color: #154360;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .preview {
+      line-height: 1.65;
+      margin: 0 0 14px;
+    }
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .keyword {
+      padding: 6px 9px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      background: #f8fafc;
+      font-size: 13px;
+    }
+    a {
+      color: #0f5f8f;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>HDDB News TF-IDF Report</h1>
+    <p class="summary">
+      TF-IDF matrix: 20 documents x 500 terms ·
+      generated at 20260517_191101
+    </p>
+    <section class="grid">
+      
+            <article class="card">
+              <div class="card-header">
+                <span class="number">1</span>
+                <div>
+                  <h2>NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station</h2>
+                  <p class="meta">
+                    NASA News Releases · Fri, 15 May 2026 22:52:14 +0000
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 1.00</span>
+              </div>
+              <p class="preview">The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX spacecraft, loaded with nearly 6,500 pounds of cargo for the space station’s Expedition 74 crew, is scheduled to autonomously dock at about 7 a.m. Sunday, May 17, to the forward port of the station’s Harmony module. Watch NASA’s live rendezvous and docking coverage beginning at 5:30 a.m. on NASA+ , Amazon Prime , and the agency’s YouTube channel. Learn how to watch NASA content through a variety of online platforms, including social media. In addition to cargo for the crew aboard the space station, Dragon will deliver several new experiments, including a project to determine how well Earth-base</p>
+              <div class="keywords"><span class="keyword">station <b>0.5910</b></span>
+<span class="keyword">space <b>0.3801</b></span>
+<span class="keyword">nasa <b>0.2776</b></span>
+<span class="keyword">spacex <b>0.2463</b></span>
+<span class="keyword">cargo <b>0.1970</b></span>
+<span class="keyword">experiments <b>0.1732</b></span>
+<span class="keyword">international <b>0.1732</b></span>
+<span class="keyword">resupply <b>0.1478</b></span></div>
+              <a href="https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">2</span>
+                <div>
+                  <h2>Scientists discover hidden “brakes” that stop massive earthquakes</h2>
+                  <p class="meta">
+                    ScienceDaily Oceanography · Sat, 16 May 2026 02:12:11 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>화산/지진</span>
+                <span>confidence 0.71</span>
+              </div>
+              <p class="preview">Deep beneath the eastern Pacific Ocean, roughly 1,000 miles west of Ecuador, a seafloor fault has been producing magnitude 6 earthquakes with striking regularity for at least 30 years. The quakes occur about every five to six years, repeatedly rupturing nearly the same sections of the fault and reaching nearly identical magnitudes. Such consistency is extremely rare in earthquake science, and researchers have long struggled to explain how the pattern could continue so reliably. Now, scientists say they have finally identified the reason. A new study published in the journal Science reveals that special regions within the fault itself act as natural braking systems that repeatedly stop earthquakes from growing larger. &quot;We&#x27;ve known these barriers existed for a long time, but the question has always been, what are they made of, and why do they keep stopping earthquakes so reliably, cycle af</p>
+              <div class="keywords"><span class="keyword">fault <b>0.5466</b></span>
+<span class="keyword">earthquakes <b>0.4969</b></span>
+<span class="keyword">gofar <b>0.2261</b></span>
+<span class="keyword">seafloor <b>0.1793</b></span>
+<span class="keyword">pacific <b>0.1696</b></span>
+<span class="keyword">larger <b>0.1696</b></span>
+<span class="keyword">nearly <b>0.1520</b></span>
+<span class="keyword">stop <b>0.1491</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515233325.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">3</span>
+                <div>
+                  <h2>Scientists warn that the world’s rivers are running out of oxygen</h2>
+                  <p class="meta">
+                    ScienceDaily Earth &amp; Climate · Sat, 16 May 2026 23:35:49 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>기상</span>
+                <span>confidence 0.46</span>
+              </div>
+              <p class="preview">Climate change is steadily stripping oxygen from rivers around the world, according to a new study published May 15 in Science Advances . Researchers found that this long-term oxygen decline is happening across most river systems, with tropical rivers emerging as the most vulnerable. The findings point to an urgent need for strategies aimed at slowing oxygen loss in freshwater ecosystems. The study was led by Prof. Kun Shi of the Nanjing Institute of Geography and Limnology (NIGLAS) at the Chinese Academy of Sciences. Dr. Qi Guan served as the first author, and the project also involved a researcher from Tongji University. Dissolved oxygen plays a critical role in maintaining healthy river ecosystems. It supports aquatic organisms, helps sustain biodiversity, and influences important biogeochemical processes. When oxygen levels fall, river health can deteriorate, putting fish and other f</p>
+              <div class="keywords"><span class="keyword">oxygen <b>0.6448</b></span>
+<span class="keyword">rivers <b>0.4729</b></span>
+<span class="keyword">river <b>0.3439</b></span>
+<span class="keyword">tropical <b>0.1956</b></span>
+<span class="keyword">deoxygenation <b>0.1467</b></span>
+<span class="keyword">freshwater <b>0.1467</b></span>
+<span class="keyword">levels <b>0.1315</b></span>
+<span class="keyword">ecosystems <b>0.1164</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515233327.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">4</span>
+                <div>
+                  <h2>Stunning 150-million-year-old stegosaur skull rewrites dinosaur evolution</h2>
+                  <p class="meta">
+                    ScienceDaily Plants &amp; Animals · Sun, 17 May 2026 02:38:26 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>동식물</span>
+                <span>confidence 1.00</span>
+              </div>
+              <p class="preview">Paleontologists from the Fundación Conjunto Paleontológico de Teruel-Dinópolis have published new findings in the scientific journal Vertebrate Zoology describing an extraordinary stegosaur skull discovered in Riodeva (Teruel, Spain). The fossil, which comes from a plated dinosaur that lived about 150 million years ago, is also helping researchers propose a new explanation for how stegosaurs evolved and spread across the world. Stegosaurs were plant-eating dinosaurs that walked on four legs and are best known for the rows of plates and spikes running from their necks to their tails. The newly studied fossil was uncovered during excavations led by Fundación Dinópolis at the &quot;Están de Colón&quot; site within the Villar del Arzobispo Formation, which dates back to the Late Jurassic period. Researchers identified the specimen as Dacentrurus armatus , one of Europe&#x27;s most iconic stegosaurs. The fo</p>
+              <div class="keywords"><span class="keyword">stegosaur <b>0.3807</b></span>
+<span class="keyword">fossil <b>0.2869</b></span>
+<span class="keyword">stegosaurs <b>0.2720</b></span>
+<span class="keyword">jurassic <b>0.2720</b></span>
+<span class="keyword">dinosaur <b>0.2390</b></span>
+<span class="keyword">europe <b>0.2176</b></span>
+<span class="keyword">skull <b>0.2176</b></span>
+<span class="keyword">skulls <b>0.2176</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515233340.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">5</span>
+                <div>
+                  <h2>Giant squid discovery uncovers a hidden deep-sea world off Australia</h2>
+                  <p class="meta">
+                    ScienceDaily Marine Biology · Thu, 14 May 2026 08:46:07 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>동식물</span>
+                <span>confidence 0.35</span>
+              </div>
+              <p class="preview">Scientists have uncovered a remarkable variety of marine life hidden deep beneath the waters off Western Australia&#x27;s Nyinggulu (Ningaloo) coast, including evidence of giant squid and several species that may be unknown to science. The discovery comes from a Curtin University-led study that explored the Cape Range and Cloates submarine canyons, located about 1200 kilometers north of Perth. During the expedition, led by the Western Australian Museum aboard the Schmidt Ocean Institute&#x27;s research vessel R/V Falkor , researchers collected more than 1,000 samples from depths reaching 4510 meters. Instead of relying only on cameras or captured animals, the team used environmental DNA (eDNA), which consists of genetic traces naturally released by marine animals into seawater. By analyzing these tiny fragments of DNA, scientists were able to identify species living in the deep ocean without direc</p>
+              <div class="keywords"><span class="keyword">squid <b>0.3931</b></span>
+<span class="keyword">australia <b>0.2879</b></span>
+<span class="keyword">species <b>0.2856</b></span>
+<span class="keyword">western <b>0.2598</b></span>
+<span class="keyword">giant <b>0.2380</b></span>
+<span class="keyword">marine <b>0.2303</b></span>
+<span class="keyword">canyons <b>0.1965</b></span>
+<span class="keyword">deep-sea <b>0.1965</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260513221807.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">6</span>
+                <div>
+                  <h2>Curiosity Shakes Loose a Pesky Rock</h2>
+                  <p class="meta">
+                    NASA News Releases · Fri, 15 May 2026 14:45:52 +0000
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 1.00</span>
+              </div>
+              <p class="preview">After NASA’s Curiosity Mars rover drilled a sample from this rock on April 25, 2026, it withdrew its robotic arm and pulled the entire rock off the surface with it. Engineers spent several days repositioning the arm and vibrating the drill to try and get the rock loose. When it finally detached on May 1, the rock broke into pieces. This close-up image of the rock was produced by Curiosity’s Mast Camera, or Mastcam, on May 6 . Nicknamed “Atacama,” the rock is estimated to be 1.5 feet in diameter at its base and 6 inches thick. It would weigh roughly 28.6 pounds on Earth (and about a third of that on Mars). The circular hole produced by Curiosity’s drill is visible in the rock. NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.</p>
+              <div class="keywords"><span class="keyword">rock <b>0.6513</b></span>
+<span class="keyword">curiosity <b>0.4074</b></span>
+<span class="keyword">arm <b>0.3259</b></span>
+<span class="keyword">loose <b>0.2445</b></span>
+<span class="keyword">mars <b>0.1643</b></span>
+<span class="keyword">nasa <b>0.1531</b></span>
+<span class="keyword">try <b>0.1433</b></span>
+<span class="keyword">spent <b>0.1433</b></span></div>
+              <a href="https://www.nasa.gov/image-article/curiosity-shakes-loose-a-pesky-rock/" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">7</span>
+                <div>
+                  <h2>Scientists discover tiny gut particles that may drive aging and chronic disease</h2>
+                  <p class="meta">
+                    ScienceDaily Plants &amp; Animals · Sat, 16 May 2026 01:47:41 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>동식물</span>
+                <span>confidence 0.90</span>
+              </div>
+              <p class="preview">Researchers at the Marshall University Joan C. Edwards School of Medicine have uncovered new evidence that tiny particles created in the gut may contribute to inflammation and chronic diseases linked to aging. The findings provide fresh insight into the connection between gut health, metabolism, immune function, and even sleep-related biological stress. The study, published in Aging Cell , focused on gut luminal exosomes, microscopic particles that cells use to communicate by carrying proteins and genetic material throughout the body. Scientists discovered that exosomes taken from older animals contained molecular signals tied to insulin resistance, inflammation, and damage to the gut barrier. When those exosomes were transferred into young animals, the younger animals developed similar metabolic and inflammatory changes. Researchers also observed the opposite effect. Exosomes collected </p>
+              <div class="keywords"><span class="keyword">gut <b>0.4844</b></span>
+<span class="keyword">aging <b>0.4360</b></span>
+<span class="keyword">exosomes <b>0.2906</b></span>
+<span class="keyword">animals <b>0.2464</b></span>
+<span class="keyword">diseases <b>0.2422</b></span>
+<span class="keyword">chronic <b>0.1938</b></span>
+<span class="keyword">inflammation <b>0.1938</b></span>
+<span class="keyword">disease <b>0.1938</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515233322.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">8</span>
+                <div>
+                  <h2>Scientists say this algae could remove microplastics from drinking water</h2>
+                  <p class="meta">
+                    ScienceDaily Marine Biology · Tue, 12 May 2026 07:16:28 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sea</span>
+                <span>해양오염</span>
+                <span>confidence 0.63</span>
+              </div>
+              <p class="preview">Researchers at the University of Missouri are developing a new way to remove tiny plastic pollutants from water using specially engineered algae. Susie Dai, a researcher at Mizzou, recently created a modified strain of algae designed to capture harmful microplastics from contaminated water. Her long term goal is not only to clean waterways but also to recycle the collected plastic into safer bioplastic materials, including composite plastic films. &quot;Microplastics are pollutants found almost everywhere in the environment, such as in ponds, lakes, rivers, wastewater and the fish that we consume,&quot; Dai, a professor in the College of Engineering and principal investigator at the Bond Life Sciences Center, said. &quot;Currently, most wastewater treatment plants can only remove large particles of plastic, but microplastics are so small that they slip through and end up in drinking water, polluting th</p>
+              <div class="keywords"><span class="keyword">algae <b>0.4739</b></span>
+<span class="keyword">water <b>0.4308</b></span>
+<span class="keyword">microplastics <b>0.3921</b></span>
+<span class="keyword">wastewater <b>0.2941</b></span>
+<span class="keyword">dai <b>0.2450</b></span>
+<span class="keyword">plastic <b>0.2450</b></span>
+<span class="keyword">clean <b>0.1960</b></span>
+<span class="keyword">pollution <b>0.1470</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260511213201.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">9</span>
+                <div>
+                  <h2>Mars may have once had an ocean and this chaotic valley is a big clue</h2>
+                  <p class="meta">
+                    ScienceDaily Space &amp; Time · Fri, 15 May 2026 04:03:45 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 0.59</span>
+              </div>
+              <p class="preview">ESA&#x27;s Mars Express mission is spotlighting Shalbatana Vallis this month, an enormous Martian valley marked by evidence of ancient water, volcanic activity, impact craters, and collapsed terrain. Located near the equator of Mars, Shalbatana Vallis stretches across the planet for roughly 1,300 kilometers, about the length of Italy. The latest image from the spacecraft&#x27;s High Resolution Stereo Camera (HRSC) focuses on the northern section of the valley as it winds across the Martian landscape. In October 2025, Mars Express also released a video tour of this remarkable region, tracing the valley&#x27;s path from its source in the highlands of Xanthe Terra to its endpoint in the smoother terrain of Chryse Planitia. Scientists believe Shalbatana Vallis formed around 3.5 billion years ago after vast amounts of groundwater burst onto the surface. The resulting floods tore through the landscape, carvi</p>
+              <div class="keywords"><span class="keyword">valley <b>0.4725</b></span>
+<span class="keyword">mars <b>0.3573</b></span>
+<span class="keyword">shalbatana <b>0.2953</b></span>
+<span class="keyword">vallis <b>0.2953</b></span>
+<span class="keyword">channels <b>0.2362</b></span>
+<span class="keyword">volcanic <b>0.2076</b></span>
+<span class="keyword">martian <b>0.1772</b></span>
+<span class="keyword">terrain <b>0.1772</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515002137.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">10</span>
+                <div>
+                  <h2>Hubble Sights Galaxy in Transition</h2>
+                  <p class="meta">
+                    NASA News Releases · Fri, 15 May 2026 12:01:37 +0000
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 0.97</span>
+              </div>
+              <p class="preview">This NASA Hubble Space Telescope image reveals an enigmatic galaxy with a bright center and a face that hints at spiral structure, yet it holds no obvious spiral arms. Reddish-brown clumps and filaments of dust partially obscure the galaxy’s full face, while red, blue, and orange light from distant galaxies shines through its diffuse outer regions and dots the inky-black background. NGC 1266 is a lenticular galaxy located some 100 million light-years away in the constellation Eridanus (the Celestial River). Astronomers classify lenticulars as transitional galaxies that represent an evolutionary bridge between spirals and ellipticals. Lenticulars are “lens-shaped” and have a bright central bulge and flattened disk like spirals, but they have no spiral arms and little to no star formation like ellipticals. As interesting as this galaxy’s structure and lenticular classification are, those t</p>
+              <div class="keywords"><span class="keyword">galaxy <b>0.6662</b></span>
+<span class="keyword">gas <b>0.2157</b></span>
+<span class="keyword">stars <b>0.2157</b></span>
+<span class="keyword">galaxies <b>0.2104</b></span>
+<span class="keyword">black <b>0.2104</b></span>
+<span class="keyword">spiral <b>0.1753</b></span>
+<span class="keyword">hubble <b>0.1753</b></span>
+<span class="keyword">star <b>0.1541</b></span></div>
+              <a href="https://science.nasa.gov/missions/hubble/hubble-sights-galaxy-in-transition/" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">11</span>
+                <div>
+                  <h2>Giant “stealth” magma surge triggered thousands of earthquakes beneath Atlantic island</h2>
+                  <p class="meta">
+                    ScienceDaily Oceanography · Thu, 14 May 2026 09:50:50 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>화산/지진</span>
+                <span>confidence 0.96</span>
+              </div>
+              <p class="preview">In March 2022, thousands of earthquakes rattled São Jorge Island in Portugal&#x27;s Azores archipelago after a huge body of magma (molten rock) surged upward from deep underground, according to a new study led by researchers at UCL (University College London). The magma traveled from more than 20 kilometers beneath Earth&#x27;s surface before stopping just 1.6 kilometers below the island, narrowly avoiding an eruption. Researchers found that much of the magma&#x27;s rise happened quietly, with relatively little seismic activity during its ascent. Most of the earthquakes struck only after the magma stopped moving upward. The enormous intrusion unfolded within just a few days and involved enough magma to fill roughly 32,000 Olympic-sized swimming pools. Lead author Dr. Stephen Hicks of UCL Earth Sciences said: &quot;This was a stealthy intrusion. Magma moved quickly through the crust, but much of its journey </p>
+              <div class="keywords"><span class="keyword">magma <b>0.6837</b></span>
+<span class="keyword">island <b>0.2805</b></span>
+<span class="keyword">earthquakes <b>0.2404</b></span>
+<span class="keyword">eruption <b>0.2279</b></span>
+<span class="keyword">upward <b>0.2279</b></span>
+<span class="keyword">fault <b>0.2003</b></span>
+<span class="keyword">underground <b>0.1823</b></span>
+<span class="keyword">thousands <b>0.1603</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260513221803.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">12</span>
+                <div>
+                  <h2>Deadly “red sky” solar storm from 800 years ago discovered in ancient trees</h2>
+                  <p class="meta">
+                    ScienceDaily Earth &amp; Climate · Thu, 14 May 2026 01:55:09 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 0.78</span>
+              </div>
+              <p class="preview">Powerful solar activity can create stunning auroras on Earth, but outside the protection of our planet&#x27;s magnetic field, the Sun can become extremely dangerous. Violent eruptions such as solar flares and coronal mass ejections can blast high energy particles through space, creating serious risks for astronauts and spacecraft. Some of these eruptions produce solar proton events (SPEs), during which charged particles race toward Earth at speeds reaching 90% of the speed of light. In 1972, several SPEs erupted between the Apollo 16 and Apollo 17 Moon missions. If astronauts had been exposed during a lunar mission, they could have faced lethal radiation levels. As space agencies prepare for future Moon exploration, scientists are working to better understand these unpredictable solar events. Researchers at the Okinawa Institute of Science and Technology (OIST) have now developed a new way to</p>
+              <div class="keywords"><span class="keyword">solar <b>0.5861</b></span>
+<span class="keyword">spes <b>0.3156</b></span>
+<span class="keyword">events <b>0.2378</b></span>
+<span class="keyword">carbon <b>0.1788</b></span>
+<span class="keyword">particles <b>0.1515</b></span>
+<span class="keyword">buried <b>0.1352</b></span>
+<span class="keyword">trees <b>0.1352</b></span>
+<span class="keyword">magnetic <b>0.1352</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260513221818.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">13</span>
+                <div>
+                  <h2>Scientists discover giant “last titan” dinosaur, Southeast Asia’s largest ever</h2>
+                  <p class="meta">
+                    ScienceDaily Plants &amp; Animals · Fri, 15 May 2026 08:36:33 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>동식물</span>
+                <span>confidence 0.96</span>
+              </div>
+              <p class="preview">Researchers have identified a gigantic new species of long necked dinosaur in Thailand that is now considered the largest dinosaur ever discovered in Southeast Asia. The finding comes from a collaboration led by scientists from University College London (UCL), Mahasarakham University, Suranaree University of Technology, and Thailand&#x27;s Sirindhorn Museum. The dinosaur was described in the journal Scientific Reports after researchers examined fossils first uncovered near the edge of a pond in northeastern Thailand about a decade ago. By studying vertebrae, ribs, pelvis bones, and leg bones, the team determined the enormous animal likely stretched around 27 meters (89 feet) long and weighed roughly 27 tonnes, which is comparable to nine adult Asian elephants. One front leg bone alone measured 1.78 meters long (as long as a human). The newly identified species was named Nagatitan chaiyaphumen</p>
+              <div class="keywords"><span class="keyword">dinosaur <b>0.4171</b></span>
+<span class="keyword">thailand <b>0.3690</b></span>
+<span class="keyword">tonnes <b>0.2636</b></span>
+<span class="keyword">southeast <b>0.2636</b></span>
+<span class="keyword">nagatitan <b>0.2109</b></span>
+<span class="keyword">sauropods <b>0.2109</b></span>
+<span class="keyword">long <b>0.1855</b></span>
+<span class="keyword">asia <b>0.1854</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515002121.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">14</span>
+                <div>
+                  <h2>Stunning fossil discovery challenges the origins of animal life</h2>
+                  <p class="meta">
+                    ScienceDaily Marine Biology · Tue, 12 May 2026 03:10:55 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>동식물</span>
+                <span>confidence 0.90</span>
+              </div>
+              <p class="preview">Scientists studying ancient microfossils from Brazil have discovered that structures once believed to be traces left behind by tiny animals were actually formed by communities of microscopic bacteria and algae. The findings challenge previous ideas about when small animals first appeared on Earth and suggest oxygen levels in ancient oceans may still have been too low to support certain forms of animal life around 540 million years ago. The research focused on fossils found in the Brazilian state of Mato Grosso do Sul and was published in the journal Gondwana Research . Earlier studies had interpreted the marks as evidence of wormlike creatures or other tiny marine animals moving through seafloor sediment during the Ediacaran period, which came just before the Cambrian explosion. &quot;Using microtomography and spectroscopy techniques, we observed that the microfossils have cellular structures</p>
+              <div class="keywords"><span class="keyword">animals <b>0.2496</b></span>
+<span class="keyword">fapesp <b>0.2061</b></span>
+<span class="keyword">cambrian <b>0.2061</b></span>
+<span class="keyword">meiofauna <b>0.2061</b></span>
+<span class="keyword">microfossils <b>0.2061</b></span>
+<span class="keyword">bacteria <b>0.2061</b></span>
+<span class="keyword">ediacaran <b>0.2061</b></span>
+<span class="keyword">tiny <b>0.1847</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260511213139.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">15</span>
+                <div>
+                  <h2>NASA’s new AI space chip could let spacecraft think for themselves</h2>
+                  <p class="meta">
+                    ScienceDaily Space &amp; Time · Fri, 15 May 2026 04:13:15 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 0.88</span>
+              </div>
+              <p class="preview">NASA is developing a powerful new computer chip designed to dramatically increase the intelligence and performance of future spacecraft. Through a commercial partnership, the project is creating advanced processing technology capable of helping spacecraft operate more independently during missions far from Earth. NASA&#x27;s High Performance Spaceflight Computing project is focused on boosting the computing capabilities of spacecraft used in space exploration. Current missions rely on older processors because they are durable enough to survive the extreme conditions of space. While those chips are dependable, they lack the performance needed for more advanced missions. The agency says newer and far more capable processors are essential for future autonomous spacecraft, faster onboard scientific analysis, and supporting astronauts during missions to the Moon and Mars. &quot;Building on the legacy o</p>
+              <div class="keywords"><span class="keyword">performance <b>0.3955</b></span>
+<span class="keyword">spacecraft <b>0.3284</b></span>
+<span class="keyword">nasa <b>0.3184</b></span>
+<span class="keyword">space <b>0.3115</b></span>
+<span class="keyword">computing <b>0.2825</b></span>
+<span class="keyword">spaceflight <b>0.2483</b></span>
+<span class="keyword">missions <b>0.2279</b></span>
+<span class="keyword">chip <b>0.1695</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515002134.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">16</span>
+                <div>
+                  <h2>Scientists discover the strange way CO2 cools part of Earth’s atmosphere</h2>
+                  <p class="meta">
+                    ScienceDaily Oceanography · Thu, 14 May 2026 03:24:00 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>기상</span>
+                <span>confidence 0.57</span>
+              </div>
+              <p class="preview">As the Earth&#x27;s surface and lower atmosphere continue to warm, another part of the planet&#x27;s atmosphere is doing the opposite. Far above the ground, the upper atmosphere has been cooling significantly for decades. Scientists have long recognized this unusual contrast as one of the clearest signals of human driven climate change, but the exact physics behind it remained uncertain. Now, researchers at Columbia University say they have finally uncovered the mechanism responsible. Their new study explains how carbon dioxide (CO 2 ) interacts with different wavelengths of light in ways that cool the upper atmosphere while warming the planet below. &quot;It explains a phenomenon that&#x27;s a fingerprint of climate change, has been known to occur for decades, and has not been understood,&quot; says Robert Pincus, a research professor of ocean and climate physics at Lamont-Doherty Earth Observatory, which is pa</p>
+              <div class="keywords"><span class="keyword">cooling <b>0.4127</b></span>
+<span class="keyword">atmosphere <b>0.3724</b></span>
+<span class="keyword">climate <b>0.3412</b></span>
+<span class="keyword">stratosphere <b>0.2683</b></span>
+<span class="keyword">columbia <b>0.2683</b></span>
+<span class="keyword">earth <b>0.2073</b></span>
+<span class="keyword">surface <b>0.1680</b></span>
+<span class="keyword">heat <b>0.1596</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260513221759.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">17</span>
+                <div>
+                  <h2>New chemical kills 95% of termites without harming humans</h2>
+                  <p class="meta">
+                    ScienceDaily Marine Biology · Sat, 09 May 2026 08:24:26 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>land</span>
+                <span>환경오염</span>
+                <span>confidence 0.92</span>
+              </div>
+              <p class="preview">Drywood termites are experts at staying out of sight. They live inside wooden structures, quietly feeding and expanding their colonies where homeowners may not notice them until damage is already underway. But their hidden lifestyle also depends on a vulnerable biological process: molting. Researchers at the University of California, Riverside have shown that bistrifluron, a chemical that blocks the formation of new termite exoskeletons, can destroy drywood termite colonies by interfering with the insects&#x27; ability to grow. The findings were published in the Journal of Economic Entomology . In laboratory testing, the treatment killed about 95 percent of a colony without the mammal toxicity concerns linked to many traditional termite control methods. &quot;This chemical is more environmentally friendly than ones traditionally used for drywood termite infestations,&quot; said Nicholas Poulos, corresp</p>
+              <div class="keywords"><span class="keyword">termites <b>0.6113</b></span>
+<span class="keyword">chemical <b>0.3566</b></span>
+<span class="keyword">drywood <b>0.2547</b></span>
+<span class="keyword">termite <b>0.2547</b></span>
+<span class="keyword">insects <b>0.2038</b></span>
+<span class="keyword">exoskeleton <b>0.2038</b></span>
+<span class="keyword">bistrifluron <b>0.2038</b></span>
+<span class="keyword">colonies <b>0.1528</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260508211025.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">18</span>
+                <div>
+                  <h2>NASA’s Roman Space Telescope could reveal millions of invisible neutron stars</h2>
+                  <p class="meta">
+                    ScienceDaily Space &amp; Time · Fri, 15 May 2026 03:33:51 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 1.00</span>
+              </div>
+              <p class="preview">Astronomers have long believed the Milky Way is filled with neutron stars, the ultra dense remnants left behind when massive stars explode. The problem is that most of these objects are nearly impossible to see. A new study published in Astronomy and Astrophysics suggests NASA&#x27;s upcoming Nancy Grace Roman Space Telescope may finally be able to uncover some of them. Using advanced simulations of the Milky Way and predictions of Roman&#x27;s future observations, researchers found the space telescope could detect and study dozens of isolated neutron stars through a phenomenon known as gravitational microlensing. &quot;Most neutron stars are relatively dim and on their own,&quot; said Zofia Kaczmarek of Heidelberg University in Germany, who led the study. &quot;They are incredibly hard to spot without some sort of help.&quot; Neutron stars contain more mass than the Sun packed into an object roughly the size of a ci</p>
+              <div class="keywords"><span class="keyword">neutron <b>0.5546</b></span>
+<span class="keyword">stars <b>0.5282</b></span>
+<span class="keyword">roman <b>0.3235</b></span>
+<span class="keyword">telescope <b>0.2031</b></span>
+<span class="keyword">star <b>0.2031</b></span>
+<span class="keyword">space <b>0.1529</b></span>
+<span class="keyword">objects <b>0.1387</b></span>
+<span class="keyword">milky <b>0.1387</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260515002130.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">19</span>
+                <div>
+                  <h2>NASA Draws on Industry for Mars Telecommunications Network</h2>
+                  <p class="meta">
+                    NASA News Releases · Thu, 14 May 2026 20:53:24 +0000
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>우주</span>
+                <span>confidence 1.00</span>
+              </div>
+              <p class="preview">On Thursday, NASA issued a Request for Proposal (RFP), seeking industry collaboration for the Mars Telecommunications Network . Reliable, high bandwidth communications is necessary to relay science data, high-definition imagery, and critical information during Mars missions. The network will use high-performance Mars telecommunications orbiters at the Red Planet to support future surface, orbital, and human exploration. This RFP builds on a draft released April 2, as well as insights gathered during the accompanying industry day at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, where commercial partners provided feedback on agency objectives for the Mars Telecommunications Network. The request seeks responses that address both current and future operational missions. It also seeks a science payload accommodation that will be selected by NASA’s Science Mission Directorate. Ind</p>
+              <div class="keywords"><span class="keyword">network <b>0.5244</b></span>
+<span class="keyword">mars <b>0.4582</b></span>
+<span class="keyword">telecommunications <b>0.4195</b></span>
+<span class="keyword">nasa <b>0.2627</b></span>
+<span class="keyword">industry <b>0.2622</b></span>
+<span class="keyword">rfp <b>0.1573</b></span>
+<span class="keyword">request <b>0.1573</b></span>
+<span class="keyword">communications <b>0.1383</b></span></div>
+              <a href="https://www.nasa.gov/directorates/esdmd/nasa-draws-on-industry-for-mars-telecommunications-network/" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+            <article class="card">
+              <div class="card-header">
+                <span class="number">20</span>
+                <div>
+                  <h2>Scientists discover the Southern Ocean is “sweating” more as climate change intensifies</h2>
+                  <p class="meta">
+                    ScienceDaily Oceanography · Wed, 13 May 2026 21:59:57 EDT
+                  </p>
+                </div>
+              </div>
+              <div class="category">
+                <span>sky</span>
+                <span>기상</span>
+                <span>confidence 0.71</span>
+              </div>
+              <p class="preview">Macquarie Island sits in one of the most remote parts of the world, halfway between Tasmania and Antarctica. The narrow, windswept island is packed with wildlife. Elephant seals crowd its beaches, king penguins climb its green slopes, and albatrosses glide above the open landscape. Large areas are becoming wetter and boggier, while native megaherbs such as Pleurophyllum and Stilbocarpa are shrinking back. Researchers have long suspected rising rainfall was behind these changes. Now, a new study published in Weather and Climate Dynamics confirms that rainfall is increasing sharply, and the findings could have implications far beyond this isolated UNESCO World Heritage site. It absorbs a huge amount of the heat trapped by greenhouse gases, along with a significant share of the carbon dioxide produced by human activity. Storm systems moving through the region also shape weather patterns acr</p>
+              <div class="keywords"><span class="keyword">island <b>0.4528</b></span>
+<span class="keyword">rainfall <b>0.3680</b></span>
+<span class="keyword">climate <b>0.3208</b></span>
+<span class="keyword">weather <b>0.2944</b></span>
+<span class="keyword">macquarie <b>0.2944</b></span>
+<span class="keyword">ocean <b>0.2473</b></span>
+<span class="keyword">southern <b>0.2335</b></span>
+<span class="keyword">records <b>0.1294</b></span></div>
+              <a href="https://www.sciencedaily.com/releases/2026/05/260512202337.htm" target="_blank" rel="noreferrer">
+                원문 열기
+              </a>
+            </article>
+            
+    </section>
+  </main>
+</body>
+</html>
